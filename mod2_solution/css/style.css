@@ -1,16 +1,18 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 45px;
 }
 
 h1 {
     font-size: 175%;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 div {
@@ -29,7 +31,7 @@ section {
 }
 
 div.section {
-  padding-top: 30px;
+  padding: 45px 15px 15px 15px;
   background-color: #e1e1e1d7;
   border: 1px solid black;
   margin-left: auto;
@@ -48,12 +50,6 @@ h2 {
     text-align: center;
     padding: 5px;
     margin: 0px;
-}
-
-p {
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .row {
@@ -194,8 +190,8 @@ p {
   background-color: #f3e2bc;
 }
 #h2b {
-  background-color:#d36666;
+  background-color:#ffadad;
 }
 #h2c {
-  background-color:#04be1d;
+  background-color:#91ffa0;
 }
