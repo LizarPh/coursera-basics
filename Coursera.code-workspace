@@ -7,5 +7,7 @@
 			"path": "mod3_solution"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mod2_solution"
+	}
 }
