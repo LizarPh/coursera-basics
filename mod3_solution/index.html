@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 3 Solution</title>
+    <title>Module 2 Solution</title>
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/style.css">
 </head>
@@ -14,25 +14,25 @@
     <!-- Navbar -->
     <header>
         <nav id="header-nav" class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="container">
+            <div class="container-fluid" id="container-nav">
                 <a class="navbar-brand" href="#">Food, LLC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse bg-secondary" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="d-sm-none navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Chicken</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">Chicken</a>
                         </li>
                         <hr>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Beef</a>
+                            <a class="nav-link text-center" href="#">Beef</a>
                         </li>
                         <hr>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sushi</a>
+                            <a class="nav-link text-center" href="#">Sushi</a>
                         </li>
                     </ul>
                 </div>
@@ -40,8 +40,61 @@
     </header>
 
     <!-- Body -->
-    <div>
-        <h1>Our Menu</h1>
+    <div class="body">
+        <h1 class="text-center">Our Menu</h1>
+        <div class="container-fluid" id="container-body">
+            <div class="row">
+                <div class="col-12" id="col-lorem">
+                    <h2 class="text-center">Chicken</h2>
+                    <p>Do duis officia nulla tempor irure commodo sint voluptate quis. In irure ullamco qui eu esse
+                        cillum consequat ad nostrud nostrud. Nulla velit laborum magna cillum et sint sint id cupidatat
+                        sunt proident. Do pariatur consectetur occaecat velit proident mollit aliquip laborum incididunt
+                        elit minim. Eu ad aute sit excepteur consequat ad amet occaecat Lorem mollit eiusmod sunt esse.
+                        Elit amet qui quis eu ipsum sit consectetur dolor dolore ullamco esse ad velit.
+
+                        Pariatur et eu nostrud incididunt officia mollit qui qui id irure labore laborum. Nisi id nisi
+                        magna reprehenderit dolore do ullamco est voluptate quis eu. Incididunt culpa esse exercitation
+                        quis magna nisi esse ut ea est. Mollit mollit labore proident tempor aliqua ad.
+
+                        Cillum sunt laboris aliqua excepteur pariatur veniam nisi commodo esse proident. Et non commodo
+                        qui laborum magna veniam nulla esse mollit Lorem. Ut commodo Lorem tempor sunt labore culpa
+                        dolor ad adipisicing deserunt excepteur. Labore aliquip id minim cupidatat esse cupidatat
+                        cupidatat dolor nisi ipsum duis. Anim excepteur qui dolor dolor. Reprehenderit elit est aute et
+                        sint laborum pariatur incididunt amet adipisicing.</p>
+                </div>
+                <div class="col-12" id="col-lorem">
+                    <h2 class="text-center">Beef</h2>
+                    <p>Laborum eu pariatur tempor commodo est est ex cillum dolore non. Aliqua id sint id ad voluptate
+                        sit cillum nisi. Laboris irure qui laboris mollit deserunt mollit adipisicing in proident
+                        pariatur cillum incididunt. Incididunt exercitation ea duis tempor culpa in ut officia ad
+                        voluptate qui sint. Excepteur eu quis pariatur aliquip voluptate amet do velit magna culpa
+                        mollit excepteur dolor.
+
+                        Sit culpa incididunt fugiat deserunt non. Non ut tempor quis pariatur culpa laboris duis
+                        consectetur ut elit. Sunt non amet fugiat ut sint nostrud incididunt sint fugiat. Sint est
+                        consequat cupidatat est dolore esse elit veniam pariatur. Deserunt incididunt aliqua ea elit
+                        adipisicing duis commodo.
+
+                        Quis minim incididunt ex fugiat aute sint id consequat amet pariatur. Sit cillum do exercitation
+                        esse elit. Dolore officia tempor quis ad culpa dolore ex proident. Ex occaecat ad ullamco elit
+                        ut non esse labore nostrud. Deserunt velit amet commodo eu excepteur ea duis officia.</p>
+                </div>
+                <div class="col-12" id="col-lorem">
+                    <h2 class="text-center">Sushi</h2>
+                    <p>Laborum eiusmod labore quis consectetur ipsum in magna cupidatat qui ea. Incididunt excepteur
+                        velit excepteur est nulla. In fugiat proident commodo elit dolore consequat cupidatat tempor
+                        dolor.
+
+                        Ad et aliquip sit irure. Veniam duis magna culpa proident. Veniam magna enim non ad irure
+                        deserunt qui. Fugiat ea consequat excepteur nulla. Laborum tempor irure magna pariatur aute
+                        laborum proident duis anim amet id tempor.
+
+                        Ipsum enim mollit laboris cillum voluptate do qui incididunt aliquip laboris. Voluptate ex
+                        laborum anim irure non aliqua voluptate cillum voluptate nostrud est officia reprehenderit. Id
+                        commodo fugiat pariatur dolore aute ullamco duis labore exercitation exercitation.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Js Pluins -->
@@ -49,4 +102,5 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
